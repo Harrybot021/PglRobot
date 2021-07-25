@@ -101,12 +101,12 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-PglRobot_IMG = "https://telegra.ph/file/f1d7b30b05ba9f0dbf4e5.jpg"
+PglRobot_IMG = "https://telegra.ph/file/2dd1c5320f968ed7a030d.jpg"
 
-PglRobotG_IMG = "https://telegra.ph/file/e8881931bc000c75e8f13.jpg"
+PglRobotG_IMG = "https://telegra.ph/file/2dd1c5320f968ed7a030d.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting [Gaurav Verma](https://t.me/iisgaurav).
+ You can support the project by contacting [Harry](https://t.me/Dev_Harry).
  Using [PayPal](paypal.me/iisgaurav).
  Those who cannot provide monetary support are welcome to help us develop the bot at @VegaCodes.
  """
@@ -226,8 +226,8 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="ADD ME IN YOUR GROUP ⚡️",
-                                url="t.me/{}?startgroup=true".format(
+                                text="ADD GINNY IN YOUR GROUP ⚡️",
+                                url="t.me/Dev_Ginny_bot?startgroup=true".format(
                                     context.bot.username
                                 ),
                             ),
@@ -235,17 +235,17 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="SUPPORT ⚡️",
-                                url=f"https://t.me/{SUPPORT_CHAT}",
+                                url=f"https://t.me/Empire_Support21",
                             ),
                             InlineKeyboardButton(
                                 text="UPDATES ⚡️",
-                                url="https://t.me/VCUpdates",
+                                url="https://t.me/Empire_Network",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
                                 text="SOURCE CODE ⚡️",
-                                url="https://github.com/iisgaurav/PglRobot",
+                                url="https://github.com/Harrybot021/PglRobot",
                             ),
                         ],
                     ]
