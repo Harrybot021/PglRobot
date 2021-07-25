@@ -77,7 +77,7 @@ Hi {}, my name is {}!
 I am a  Powerfull  group management bot. You can find my list of available commands with /help.
 """
 G_START_TEXT = """
-Hello PglRobot Is In The Chat.
+Hello GINNY Is In The Chat.
 Uptime - {}!
 """
 
@@ -629,7 +629,7 @@ def main():
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
             dispatcher.bot.sendMessage(
-                f"@{SUPPORT_CHAT}", "PglRobot now ready to work!"
+                f"@{SUPPORT_CHAT}", "Ginny now ready to work!"
             )
         except Unauthorized:
             LOGGER.warning(
